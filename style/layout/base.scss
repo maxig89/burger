@@ -1,0 +1,81 @@
+body,html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  font-family: 'ubuntulight', sans-serif;
+  font-size: 14px;
+  line-height: 1.42;
+  color: #fff;
+  background-color: #000;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  font-weight:normal;
+}
+
+p{
+  margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+  position: relative;
+  height: 100%;
+}
+
+.section{
+    height: 100vh;
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title{
+      color: $black;
+      &_mb_30{
+        margin-bottom: 30px;
+      }
+    }
+}
+
+.button{
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 38px;
+  &_color_orange{
+    background-color: $orange;
+  }
+  &_color_black{
+    background-color: $black;
+  }
+  &_ml_20{
+    margin-left: 20px;
+  }
+}
+
+.logo{
+  display: flex;
+  &_mr_auto{
+    margin-right: auto;
+  }
+}

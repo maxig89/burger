@@ -1,0 +1,47 @@
+.best {
+    background: url('../img/bg.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .best__list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+.best__item-desc{
+    margin-top: 25px;
+    font-family: 'Ubuntu';
+    font-size: 14px;
+    color: #9a9998;
+    line-height: 1.58em;;
+}
+
+  .best__item {
+    margin-right: 20px;
+    width: 310px;
+  
+    &:last-child {
+      margin-right: 0;
+    }
+    
+  }
+
+  .best__item-title{
+    margin-top:30px;
+    font-size:24px;
+    font-family: lifehackmedium;
+    color:#2f3234;
+}
+    .best__item-title-1{
+        margin-top:41px;
+        font-size:24px;
+        font-family: lifehackmedium;
+        color:#2f3234;
+}
+.section.section.best > div > h2{
+    color:#2f3234;
+    padding-top:75px;
+    
+}

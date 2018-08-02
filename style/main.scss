@@ -1,0 +1,19 @@
+$orange: #e45028;
+$yellow: #f9b43B;
+$black: #2f3234;
+$red: #e35028;
+
+
+@import "layout/base.scss";
+@import "layout/layout.scss";
+@import "layout/fonts.scss";
+
+//sections
+@import "sections/best.scss";
+@import "sections/intro.scss";
+@import "sections/reviews.scss";
+
+
+
+
+

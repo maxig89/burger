@@ -1,0 +1,40 @@
+html,
+body {
+  font-size: 16px;
+  line-height: 1,42;
+  -webkit-font-smoothing: anialised;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative; }
+
+.wpaper {
+  position: relative;
+  width: 100%;
+  min-width: 650px;
+  min-height: 100%;
+  overflow: hidden; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal; }
+
+.ul {
+  padding: 0;
+  margin: 0; }
+  .ul li {
+    list-style: none; }
+
+p {
+  padding: 0;
+  margin: 0; }
+
+* {
+  box-size: border-box; }
+
+.section {
+  height: 100vh;
+  min-height: 650px; }
