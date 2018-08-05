@@ -194,6 +194,8 @@ p {
     width: 6px;
     border-radius: 50%;
     background-color: #fff; }
+  .menu__item:first-child:before {
+    display: none; }
 
 .menu__link {
   margin-left: 20px;

@@ -31,6 +31,9 @@
           border-radius: 50%;
           background-color: #fff;
       }
+      &:first-child:before{
+        display: none;
+      }
   }
   &__link{
       margin-left: 20px;
