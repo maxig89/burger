@@ -3,16 +3,19 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0 40px 0;
   background-image: url('../img/main_texture.jpg');
-  background-repeat: no-repeat;
-  background-size:cover;
+}
+
+
+.logo{
+  display: block;
 }
 
 .header{
   display: flex;
   align-items: center;
   width: 1040px;
+  padding: 20px 0 40px 0;
 }
 
 .menu{
@@ -46,7 +49,7 @@
   display: flex;
   align-items: center;
   width: 875px;
-  margin-right: 75px;
+  margin:0 75px 90px 0;
   &__desc{
       margin-left: 20px;
   }
@@ -66,5 +69,5 @@
 }
 
 .arrow-down{
-  margin-top:95px;
+  margin-bottom: 40px;
 }

@@ -94,16 +94,8 @@ p {
   .button_ml_20 {
     margin-left: 20px; }
 
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .logo_mr_auto {
-    margin-right: auto; }
-
 .best {
-  background: url("../img/bg.jpg") center center no-repeat;
-  background-size: cover; }
+  background-image: url("../img/bg.jpg"); }
 
 .best__list {
   display: -webkit-box;
@@ -158,10 +150,10 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 20px 0 40px 0;
-  background-image: url("../img/main_texture.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-image: url("../img/main_texture.jpg"); }
+
+.logo {
+  display: block; }
 
 .header {
   display: -webkit-box;
@@ -170,7 +162,8 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 1040px; }
+  width: 1040px;
+  padding: 20px 0 40px 0; }
 
 .menu__list {
   display: -webkit-box;
@@ -210,7 +203,7 @@ p {
   -ms-flex-align: center;
   align-items: center;
   width: 875px;
-  margin-right: 75px; }
+  margin: 0 75px 90px 0; }
   .main-content__desc {
     margin-left: 20px; }
   .main-content__slogan {
@@ -226,7 +219,7 @@ p {
   text-align: center; }
 
 .arrow-down {
-  margin-top: 95px; }
+  margin-bottom: 40px; }
 
 .reviews__list {
   height: 100%;
@@ -252,8 +245,6 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); }
