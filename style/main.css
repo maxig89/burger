@@ -1,71 +1,38 @@
-body, html {
-  width: 100%;
-  height: 100%; }
+@font-face {
+  font-family: lifehack;
+  src: url("../fonts/Lifehack/Lifehack-Medium.woff") format("woff"), url("../fonts/Lifehack/Lifehack-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
 
-body {
-  font-family: 'ubuntu', sans-serif;
-  font-size: 14px;
+@font-face {
+  font-family: gagalin;
+  src: url("../fonts/Gagalin/Gagalin-Regular.woff") format("woff"), url("../fonts/Gagalin/Gagalin-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Bold.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Light.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Light.woff2") format("woff2");
   font-weight: 300;
-  line-height: 1.42;
-  color: #fff;
-  background-color: #000;
-  -webkit-font-smoothing: antialiased; }
+  font-style: normal; }
 
-ul {
-  margin: 0;
-  padding: 0; }
-  ul li {
-    list-style: none; }
+@font-face {
+  font-family: ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Medium.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  font-weight: normal; }
-
-p {
-  margin: 0; }
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.wrapper {
-  position: relative;
-  height: 100%; }
-
-.section {
-  height: 100vh;
-  min-height: 650px;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .section__title {
-    color: #2f3234; }
-    .section__title_mb_30 {
-      margin-bottom: 30px; }
-
-.button {
-  padding: 10px 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 13px;
-  text-transform: uppercase;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  width: 100px;
-  height: 38px; }
-  .button_color_orange {
-    background-color: #e45028; }
-  .button_color_black {
-    background-color: #2f3234; }
-  .button_ml_20 {
-    margin-left: 20px; }
-
-.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-  .logo_mr_auto {
-    margin-right: auto; }
+@font-face {
+  font-family: ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal; }
 
 body, html {
   width: 100%;
@@ -133,42 +100,6 @@ p {
   display: flex; }
   .logo_mr_auto {
     margin-right: auto; }
-
-@font-face {
-  font-family: lifehack;
-  src: url("../fonts/Lifehack/Lifehack-Medium.woff") format("woff"), url("../fonts/Lifehack/Lifehack-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: gagalin;
-  src: url("../fonts/Gagalin/Gagalin-Regular.woff") format("woff"), url("../fonts/Gagalin/Gagalin-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: ubuntu;
-  src: url("../fonts/Ubuntu/Ubuntu-Bold.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: ubuntu;
-  src: url("../fonts/Ubuntu/Ubuntu-Light.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: ubuntu;
-  src: url("../fonts/Ubuntu/Ubuntu-Medium.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: ubuntu;
-  src: url("../fonts/Ubuntu/Ubuntu.woff") format("woff"), url("../fonts/Ubuntu/Ubuntu.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal; }
 
 .best {
   background: url("../img/bg.jpg") center center no-repeat;

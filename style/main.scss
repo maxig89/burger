@@ -4,9 +4,9 @@ $black: #2f3234;
 $red: #e35028;
 
 
-@import "layout/base.scss";
-@import "layout/layout.scss";
 @import "layout/fonts.scss";
+@import "layout/layout.scss";
+
 
 //sections
 @import "sections/best.scss";
