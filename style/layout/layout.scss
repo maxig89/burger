@@ -72,3 +72,10 @@ p{
   }
 }
 
+.container{
+  width: calc(100% - 3 rem);
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}

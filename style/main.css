@@ -94,6 +94,18 @@ p {
   .button_ml_20 {
     margin-left: 20px; }
 
+.container {
+  width: calc(100% - 3 rem);
+  max-width: 940px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 .best {
   background-image: url("../img/bg.jpg"); }
 
@@ -153,7 +165,8 @@ p {
   background-image: url("../img/main_texture.jpg"); }
 
 .logo {
-  display: block; }
+  display: block;
+  margin-right: 20px; }
 
 .header {
   display: -webkit-box;
