@@ -103,8 +103,7 @@ p {
 
 .best {
   background: url("../img/bg.jpg") center center no-repeat;
-  background-size: cover;
-  height: 100%; }
+  background-size: cover; }
 
 .best__list {
   display: -webkit-box;
