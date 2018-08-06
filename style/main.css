@@ -96,7 +96,7 @@ p {
 
 .container {
   width: calc(100% - 3 rem);
-  max-width: 940px;
+  min-width: 940px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,7 +104,10 @@ p {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .best {
   background-image: url("../img/bg.jpg"); }
@@ -138,15 +141,10 @@ p {
   font-family: lifehack;
   color: #2f3234; }
 
-.best__item-title-1 {
-  margin-top: 41px;
-  font-size: 24px;
-  font-family: lifehack;
-  color: #2f3234; }
-
 .section.section.best > div > h2 {
   color: #2f3234;
-  padding-top: 75px; }
+  padding-top: 75px;
+  text-align: center; }
 
 .intro {
   display: -webkit-box;
@@ -175,7 +173,6 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 1040px;
   padding: 20px 0 40px 0; }
 
 .menu__list {
@@ -214,11 +211,11 @@ p {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  width: 875px;
-  margin: 0 75px 90px 0; }
+  align-items: center; }
+  .main-content__img {
+    width: 45%; }
   .main-content__desc {
-    margin-left: 20px; }
+    width: 50%; }
   .main-content__slogan {
     font-size: 65px;
     font-family: lifehack;
@@ -228,11 +225,12 @@ p {
 .section__title {
   font-size: 72px;
   font-family: gagalin;
-  color: #f9b43b;
-  text-align: center; }
+  color: #f9b43b; }
 
 .arrow-down {
-  margin-bottom: 40px; }
+  margin: 25px 0;
+  -ms-flex-item-align: center;
+  align-self: center; }
 
 .reviews__list {
   height: 100%;
