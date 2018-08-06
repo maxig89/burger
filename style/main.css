@@ -121,10 +121,10 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-align: center; }
+  text-align: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
 
 .best__item-desc {
   margin-top: 25px;
@@ -135,20 +135,19 @@ p {
   line-height: 1.58em; }
 
 .best__item {
-  margin-right: 20px;
-  width: 310px; }
+  margin-right: 20px; }
+  .best__itemmeat__icon {
+    margin-bottom: 30px; }
   .best__item:last-child {
     margin-right: 0; }
 
 .best__item-title {
-  margin-top: 30px;
   font-size: 24px;
   font-family: lifehack;
   color: #2f3234; }
 
-.section.section.best > div > h2 {
-  color: #2f3234;
-  padding-top: 75px;
+.section__title_mb_30 {
+  color: #2f3234 !important;
   text-align: center; }
 
 .intro {

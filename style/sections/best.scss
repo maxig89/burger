@@ -8,8 +8,8 @@
 
   .best__list {
     display: flex;
-    justify-content: center;
     text-align: center;
+    flex:1;
   }
   
 .best__item-desc{
@@ -23,8 +23,10 @@
 
   .best__item {
     margin-right: 20px;
-    width: 310px;
-  
+
+    &meat__icon{
+      margin-bottom: 30px;
+    }
     &:last-child {
       margin-right: 0;
     }
@@ -32,15 +34,13 @@
   }
 
   .best__item-title{
-    margin-top:30px;
     font-size:24px;
     font-family: lifehack;
     color:#2f3234;
 }
     
-.section.section.best > div > h2{
-    color:#2f3234;
-    padding-top:75px;
+.section__title_mb_30{
+    color:#2f3234!important;
     text-align: center;
     
 }
