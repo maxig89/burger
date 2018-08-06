@@ -112,6 +112,11 @@ p {
 .best {
   background-image: url("../img/bg.jpg"); }
 
+.best_mb_1 {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
 .best__list {
   display: -webkit-box;
   display: -ms-flexbox;
